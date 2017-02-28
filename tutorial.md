@@ -77,7 +77,7 @@ We are going to add 2 lines to this:
 	import QtQuick.Controls 1.4
 	import QtQuick.Dialogs 1.2
 
-Your import block should now look something like this:
+Your import block should now look something like this:  
 ![image:import block finished](screenshots/import_finished.png)
 
 <br>
