@@ -1,6 +1,6 @@
-#AppStudio for ArcGIS - QT QML - Image Geolocator Tutorial
+# AppStudio for ArcGIS - QT QML - Image Geolocator Tutorial
 
-###Description
+### Description
 
 This tutorial shows how to use AppStudio for ArcGIS and QT Creator to make an app that reads the geotag of an image and display the location on a map.
 
@@ -23,9 +23,9 @@ This tutorial teaches how to do the following using qml and the arc QT sdk:
 * Use a file dialog
 
   
-#Instructions
+# Instructions
 
-###Step 1: Make A New App
+### Step 1: Make A New App
 
 The first step in making our app is to use AppStudio for ArcGIS to create a new app.
 
@@ -41,7 +41,7 @@ Click OK.
 ![image:new app dialog complete](screenshots/new_app.png)
 
 <br>
-###Step 2: Open Your App in QT Creator
+### Step 2: Open Your App in QT Creator
 
 Now that we have created our app, we need to open it in QT Creator so we can edit it.
 
@@ -55,7 +55,7 @@ This is where we will be working to make our app.
 ![image:qt creator open to HelloWorld.qml](screenshots/hello_world_open.png)
 
 <br>
-###Step 3: Editing the Existing Code
+### Step 3: Editing the Existing Code
 
 Before we add anything new we need to add to and change the existing code a bit.  
 
@@ -109,7 +109,7 @@ If you just get a small empty app, then some part of you code is wrong.
 Go back through what we have done and look for errors.
 
 <br>
-###Step 4: Create the Image Handlers
+### Step 4: Create the Image Handlers
 
 In the last step we emptied the bottom half of our app's screen.  
 This was done to create a space for an image to be displayed.  
@@ -177,7 +177,7 @@ We have not given it an image to display yet, so it should look like this:
 ![image:step 4 complete](screenshots/step_4_done.png)
 
 <br>
-###Step 5: Create a Drop Down Menu
+### Step 5: Create a Drop Down Menu
 
 In mobile app development it is good practice to put buttons either on toolbars or in drop down menus.  
 In this case we are going to use a drop down menu (you could make toolbar if you like, drop downs are just fun.).  
@@ -243,7 +243,7 @@ It should now look like this:
 ![image:step 5 complete](screenshots/step_5_done.png)
 
 <br>
-###Step 6: Create a Custom File Input Screen
+### Step 6: Create a Custom File Input Screen
 
 This part is not strictly necessary, but we are going to build a custom screen for handling the file input operations.  
 The reason it is optional is because we could just do it using only the built in file dialog (we will still use this as part of it), but it is a good thing to learn how to do.  
@@ -398,7 +398,7 @@ You should see the input screen we just created.
 The only button that will work is cancel, but we are going to fix this in the next step.
 
 <br>
-###Step 7: Making Everything Work
+### Step 7: Making Everything Work
 
 All the visible parts of our app are in place, now we just need to add the behind the scenes pieces that make everything work.  
 
@@ -453,7 +453,7 @@ After the "Action" element we just made, add the following:
 ![image:add "Point" element](screenshots/point.png)
 
 <br>
-###Congratulations!
+### Congratulations!
 If you have followed this tutorial correctly, you should now have a fully functioning image geolocator app.  
 Try running your app and selecting an image with a geotag.  
 It should locate the image for you and display the image itself below the map.  
